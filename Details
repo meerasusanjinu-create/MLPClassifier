@@ -1,0 +1,29 @@
+Technologies Used:
+Python
+Scikit-learn
+NumPy
+Jupyter Notebook
+
+Dataset characteristics:
+569 samples
+30 numerical features
+Binary classification
+0 → Malignant
+1 → Benign
+
+Hidden Layer Architectures Tested:
+(50,)
+(100,)
+(50, 30)
+(100, 50)
+(100, 50, 25)
+(64, 32, 16)
+
+Conclusion:
+The results show that increasing the number of layers and neurons does not always improve model performance. 
+Moderately sized architectures such as (100,), (50,30), and (64,32,16) achieved the highest accuracy, 
+indicating that balanced network complexity can lead to better generalization.
+
+Author:
+Meera
+Statistics & Data Science Student
